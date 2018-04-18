@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <script>
+    var question1 = prompt('Кто пришел?', '');
+    if (question1 == 'Админ') {
+      var question2 = prompt('Пароль?','');
+	  if (question2 == 'Черный Властелин'){
+	  alert('Добро пожаловать !');
+	  }
+	  else if ( question2 == null){
+		alert('Вход отменен');
+	  }
+	  else {
+		alert('Пароль неверен');
+	  }
+    }
+	else if (question1 == null) {
+	alert('Вход отменен');
+	}
+	else {
+	alert('Я вас не знаю');
+	}
+  </script>
+</bodyП
+</html>
